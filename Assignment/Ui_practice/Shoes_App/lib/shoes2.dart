@@ -1,6 +1,6 @@
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 
 void main() {
   runApp(const MainApp());
@@ -50,9 +50,7 @@ class _App1 extends State{
             
           ),
           ),
-          leading: IconButton(onPressed: (){}, icon: Icon(Icons.arrow_back),
-          
-          ),
+          leading: IconButton(onPressed: (){}, icon: Icon(Icons.arrow_back), ),
           centerTitle: true,
         ),
         body: Column(
