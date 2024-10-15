@@ -134,6 +134,7 @@ class _InfoAppState extends State<InfoApp> {
                           fontWeight: FontWeight.w500,
                           
                         ),),
+                        SizedBox(height: 35,),
                         Text("Company Name:$Mycomp",
                         style:const TextStyle(
                           fontSize: 20,
